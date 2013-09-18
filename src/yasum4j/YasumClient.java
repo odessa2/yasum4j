@@ -49,10 +49,9 @@ public class YasumClient {
 	/*
 	 * returns: 
 	 * -1- update is manditory! 
-	 * 0 - update is possiblen 
-	 * 1 - update is not possible 
-	 * 2 - unknown 
-	 * 4 - ERROR
+	 * 0 - update is possible
+	 * 1 - update is not possible
+	 * 2 - ERROR
 	 */
 	public static int performVersionCheck(String ownVersion, String AppName,
 			String updateServerHostName, int updateServerPort) {

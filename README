@@ -1,0 +1,21 @@
+TBD
+
+Usage of sever
+---------------
+java -jar yasum0.1.jar
+Apps and Versions can be edited in versions.json
+
+Usage of client
+---------------
+*Include JAR
+*Create an instance of YasumClient
+YasumClient yc = new YasumClient();
+*execute function (assign to int)
+int result = yc.performVersionCheck("1.0.0","MyAppName","versions.example.com",1337);
+/*
+* returns:
+* -1- update is manditory!
+* 0 - update is possible
+* 1 - update is not possible
+* 2 - ERROR
+*/
