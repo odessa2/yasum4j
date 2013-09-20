@@ -11,7 +11,7 @@ Usage of client
 *Create an instance of YasumClient
 YasumClient yc = new YasumClient();
 *execute function (assign to int)
-int result = yc.performVersionCheck("1.0.0","MyAppName","versions.example.com",1337);
+int result = yc.performVersionCheck("1.0.0","MyAppName","versions.example.com",1337); // Standard Port 6963 
 /*
 * returns:
 * -1- update is manditory!
