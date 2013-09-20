@@ -23,3 +23,7 @@ int result = yc.performVersionCheck("1.0.0","MyAppName","versions.example.com",1
 * 1 - update is not possible
 * 2 - ERROR
 */
+
+
+License:
+GPL v2
